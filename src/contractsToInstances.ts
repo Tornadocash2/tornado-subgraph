@@ -60,65 +60,44 @@ contractsToInstances.set("0xaf4c0b70b2ea9fb7487c7cbb37ada259579fe040", // Inst
 contractsToInstances.set("0xa5c2254e4253490c54cef0a4347fddb8f75a4998", // Instance-matic-100000
   "matic-100000"
 );
-contractsToInstances.set("0x12d66f87a04a9e220743712ce6d9bb1b5616b8fc", // Instance-eth-0.1
+contractsToInstances.set("0x654ea9db6792569bd276fe862748b9d67afaa002", // Instance-eth-0.1
   "eth-0.1"
 );
-contractsToInstances.set("0x47ce0c6ed5b0ce3d3a51fdb1c52dc66a7c3c2936", // Instance-eth-1
+contractsToInstances.set("0x7c133d39220877a781fe2905cd7666e6b6e162aa", // Instance-eth-1
   "eth-1"
 );
-contractsToInstances.set("0x910cbd523d972eb0a6f4cae4618ad62622b39dbf", // Instance-eth-10
+contractsToInstances.set("0xd545a432855ab48f722f47d2833569fb5f48bf5f", // Instance-eth-10
   "eth-10"
 );
-contractsToInstances.set("0xa160cdab225685da1d56aa342ad8841c3b53f291", // Instance-eth-100
+contractsToInstances.set("0x753050049ba2e2869ad652c3e6d2ba68854c9086", // Instance-eth-100
   "eth-100"
+);
+contractsToInstances.set("0xe871436b8e0e69934e8f7237a07d7b06d7ca5ff7", // Instance-dai-100
+  "dai-100"
+);
+contractsToInstances.set("0xf0f16d32f3af84ae46245e490bedf1b0edf785ec", // Instance-dai-1000
+  "dai-1000"
+);
+contractsToInstances.set("0x7083377d0cf8852358dd6a559281c7c09366887d", // Instance-dai-10000
+  "dai-10000"
+);
+contractsToInstances.set("0x6bf81db7469a0bacb4a14f2cf0a70c7af8be2ff8", // Instance-dai-100000
+  "dai-100000"
+);
+contractsToInstances.set("0x1fcde12aab9bde309019adf18b36c9aa66bd9e81", // Instance-hex-100
+  "hex-100"
+);
+contractsToInstances.set("0x4e2bd6c44813ec175c6666a2a615a8f05854ce91", // Instance-hex-1000
+  "hex-1000"
+);
+contractsToInstances.set("0x11a99a832d6615209fcb79125e5ef629a92f6c05", // Instance-hex-10000
+  "hex-10000"
+);
+contractsToInstances.set("0x4e09ee0f4230bb259f361ddf031ed075a32b34d6", // Instance-hex-100000
+  "hex-100000"
 );
 contractsToInstances.set("0x76d85b4c0fc497eecc38902397ac608000a06607", // Instance-dai-100
   "dai-100"
-);
-contractsToInstances.set("0xd4b88df4d29f5cedd6857912842cff3b20c8cfa3", // Instance-dai-100
-  "dai-100"
-);
-contractsToInstances.set("0xfd8610d20aa15b7b2e3be39b396a1bc3516c7144", // Instance-dai-1000
-  "dai-1000"
-);
-contractsToInstances.set("0x07687e702b410fa43f4cb4af7fa097918ffd2730", // Instance-dai-10000
-  "dai-10000"
-);
-contractsToInstances.set("0x23773e65ed146a459791799d01336db287f25334", // Instance-dai-100000
-  "dai-100000"
-);
-contractsToInstances.set("0x22aaa7720ddd5388a3c0a3333430953c68f1849b", // Instance-cdai-5000
-  "cdai-5000"
-);
-contractsToInstances.set("0x03893a7c7463ae47d46bc7f091665f1893656003", // Instance-cdai-50000
-  "cdai-50000"
-);
-contractsToInstances.set("0x2717c5e28cf931547b621a5dddb772ab6a35b701", // Instance-cdai-500000
-  "cdai-500000"
-);
-contractsToInstances.set("0xd21be7248e0197ee08e0c20d4a96debdac3d20af", // Instance-cdai-5000000
-  "cdai-5000000"
-);
-contractsToInstances.set("0xd96f2b1c14db8458374d9aca76e26c3d18364307", // Instance-usdc-100
-  "usdc-100"
-);
-contractsToInstances.set("0x4736dcf1b7a3d580672cce6e7c65cd5cc9cfba9d", // Instance-usdc-1000
-  "usdc-1000"
-);
-contractsToInstances.set("0x169ad27a470d064dede56a2d3ff727986b15d52b", // Instance-usdt-100
-  "usdt-100"
-);
-contractsToInstances.set("0x0836222f2b2b24a3f36f98668ed8f0b38d1a872f", // Instance-usdt-1000
-  "usdt-1000"
-);
-contractsToInstances.set("0x178169b423a011fff22b9e3f3abea13414ddd0f1", // Instance-wbtc-0.1
-  "wbtc-0.1"
-);
-contractsToInstances.set("0x610b717796ad172b316836ac95a2ffad065ceab4", // Instance-wbtc-1
-  "wbtc-1"
-);
-contractsToInstances.set("0xbb93e510bbcd0b7beb5a853875f9ec60275cf498", // Instance-wbtc-10
-  "wbtc-10"
 );
 contractsToInstances.set("0xcc84179ffd19a1627e79f8648d09e095252bc418", // Instance-dai-1000
   "dai-1000"

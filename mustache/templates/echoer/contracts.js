@@ -18,10 +18,10 @@ const contracts = [
     address: '0xa75BF2815618872f155b7C4B0C81bF990f5245E4',
   },
   {
-    prod: 11842486,
+    prod: 16067033,
     network: 'mainnet',
     name: 'Echoer',
-    address: '0x9B27DD5Bb15d42DC224FCD0B7caEbBe16161Df42',
+    address: '0x42eaaf05a36fc52041328ef50a2d6c93e93306ca',
   },
   {
     prod: 3781595,

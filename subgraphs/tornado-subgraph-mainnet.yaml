@@ -8,9 +8,9 @@
     name: Echoer
     network: mainnet
     source:
-      address: "0x9B27DD5Bb15d42DC224FCD0B7caEbBe16161Df42"
+      address: "0x42eaaf05a36fc52041328ef50a2d6c93e93306ca"
       abi: Echoer
-      startBlock: 11842486
+      startBlock: 16067033
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
@@ -28,9 +28,9 @@
     name: Instance-0.1-eth
     network: mainnet
     source:
-      address: "0x12D66f87A04A9E220743712cE6d9bB1B5616B8Fc"
+      address: "0x654Ea9db6792569BD276FE862748B9D67afaA002"
       abi: Instance
-      startBlock: 9116966
+      startBlock: 16066429
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
@@ -51,9 +51,9 @@
     name: Instance-1-eth
     network: mainnet
     source:
-      address: "0x47CE0C6eD5B0Ce3d3A51fdb1C52DC66a7c3c2936"
+      address: "0x7c133d39220877a781fe2905cd7666e6b6e162aa"
       abi: Instance
-      startBlock: 9116966
+      startBlock: 16066429
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
@@ -74,9 +74,9 @@
     name: Instance-10-eth
     network: mainnet
     source:
-      address: "0x910Cbd523D972eb0a6f4cAe4618aD62622b39DbF"
+      address: "0xd545A432855ab48f722f47D2833569fb5f48Bf5F"
       abi: Instance
-      startBlock: 9116966
+      startBlock: 16066429
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
@@ -97,9 +97,9 @@
     name: Instance-100-eth
     network: mainnet
     source:
-      address: "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291"
+      address: "0x753050049Ba2E2869Ad652C3e6d2ba68854C9086"
       abi: Instance
-      startBlock: 9116966
+      startBlock: 16066429
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
@@ -120,9 +120,9 @@
     name: Instance-100-dai
     network: mainnet
     source:
-      address: "0xD4B88Df4D29F5CedD6857912842cff3b20C8Cfa3"
+      address: "0xe871436b8e0e69934e8f7237a07d7b06d7ca5ff7"
       abi: Instance
-      startBlock: 9116966
+      startBlock: 16066429
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
@@ -143,9 +143,9 @@
     name: Instance-1000-dai
     network: mainnet
     source:
-      address: "0xFD8610d20aA15b7B2E3Be39B396a1bC3516c7144"
+      address: "0xf0f16d32f3af84ae46245e490bedf1b0edf785ec"
       abi: Instance
-      startBlock: 9116966
+      startBlock: 16066429
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
@@ -166,9 +166,9 @@
     name: Instance-10000-dai
     network: mainnet
     source:
-      address: "0x07687e702b410Fa43f4cB4Af7FA097918ffD2730"
+      address: "0x7083377d0cf8852358dd6a559281c7c09366887d"
       abi: Instance
-      startBlock: 9116966
+      startBlock: 16066429
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
@@ -189,9 +189,9 @@
     name: Instance-100000-dai
     network: mainnet
     source:
-      address: "0x23773E65ed146A459791799d01336DB287f25334"
+      address: "0x6bf81db7469a0bacb4a14f2cf0a70c7af8be2ff8"
       abi: Instance
-      startBlock: 9116966
+      startBlock: 16066429
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
@@ -209,12 +209,12 @@
         - event: Withdrawal(address,bytes32,indexed address,uint256)
           handler: handleWithdrawal
   - kind: ethereum/contract
-    name: Instance-5000-cdai
+    name: Instance-100-hex
     network: mainnet
     source:
-      address: "0x22aaA7720ddd5388A3c0A3333430953C68f1849b"
+      address: "0x1fcde12aab9bde309019adf18b36c9aa66bd9e81"
       abi: Instance
-      startBlock: 9116966
+      startBlock: 16066429
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
@@ -232,12 +232,12 @@
         - event: Withdrawal(address,bytes32,indexed address,uint256)
           handler: handleWithdrawal
   - kind: ethereum/contract
-    name: Instance-50000-cdai
+    name: Instance-1000-hex
     network: mainnet
     source:
-      address: "0x03893a7c7463AE47D46bc7f091665f1893656003"
+      address: "0x4e2bd6c44813ec175c6666a2a615a8f05854ce91"
       abi: Instance
-      startBlock: 9116966
+      startBlock: 16066429
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
@@ -255,12 +255,12 @@
         - event: Withdrawal(address,bytes32,indexed address,uint256)
           handler: handleWithdrawal
   - kind: ethereum/contract
-    name: Instance-500000-cdai
+    name: Instance-10000-hex
     network: mainnet
     source:
-      address: "0x2717c5e28cf931547B621a5dddb772Ab6A35B701"
+      address: "0x11a99a832d6615209fcb79125e5ef629a92f6c05"
       abi: Instance
-      startBlock: 9116966
+      startBlock: 16066429
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
@@ -278,173 +278,12 @@
         - event: Withdrawal(address,bytes32,indexed address,uint256)
           handler: handleWithdrawal
   - kind: ethereum/contract
-    name: Instance-5000000-cdai
+    name: Instance-100000-hex
     network: mainnet
     source:
-      address: "0xD21be7248e0197Ee08E0c20D4a96DEBdaC3D20Af"
+      address: "0x4e09ee0f4230bb259f361ddf031ed075a32b34d6"
       abi: Instance
-      startBlock: 9116966
-    mapping:
-      kind: ethereum/events
-      apiVersion: 0.0.4
-      language: wasm/assemblyscript
-      file: ../src/mapping-instance.ts
-      entities:
-        - Deposit
-        - Withdrawal
-      abis:
-        - name: Instance
-          file: ../abis/Instance.json
-      eventHandlers:
-        - event: Deposit(indexed bytes32,uint32,uint256)
-          handler: handleDeposit
-        - event: Withdrawal(address,bytes32,indexed address,uint256)
-          handler: handleWithdrawal
-  - kind: ethereum/contract
-    name: Instance-100-usdc
-    network: mainnet
-    source:
-      address: "0xd96f2B1c14Db8458374d9Aca76E26c3D18364307"
-      abi: Instance
-      startBlock: 9116966
-    mapping:
-      kind: ethereum/events
-      apiVersion: 0.0.4
-      language: wasm/assemblyscript
-      file: ../src/mapping-instance.ts
-      entities:
-        - Deposit
-        - Withdrawal
-      abis:
-        - name: Instance
-          file: ../abis/Instance.json
-      eventHandlers:
-        - event: Deposit(indexed bytes32,uint32,uint256)
-          handler: handleDeposit
-        - event: Withdrawal(address,bytes32,indexed address,uint256)
-          handler: handleWithdrawal
-  - kind: ethereum/contract
-    name: Instance-1000-usdc
-    network: mainnet
-    source:
-      address: "0x4736dCf1b7A3d580672CcE6E7c65cd5cc9cFBa9D"
-      abi: Instance
-      startBlock: 9116966
-    mapping:
-      kind: ethereum/events
-      apiVersion: 0.0.4
-      language: wasm/assemblyscript
-      file: ../src/mapping-instance.ts
-      entities:
-        - Deposit
-        - Withdrawal
-      abis:
-        - name: Instance
-          file: ../abis/Instance.json
-      eventHandlers:
-        - event: Deposit(indexed bytes32,uint32,uint256)
-          handler: handleDeposit
-        - event: Withdrawal(address,bytes32,indexed address,uint256)
-          handler: handleWithdrawal
-  - kind: ethereum/contract
-    name: Instance-100-usdt
-    network: mainnet
-    source:
-      address: "0x169AD27A470D064DEDE56a2D3ff727986b15D52B"
-      abi: Instance
-      startBlock: 9116966
-    mapping:
-      kind: ethereum/events
-      apiVersion: 0.0.4
-      language: wasm/assemblyscript
-      file: ../src/mapping-instance.ts
-      entities:
-        - Deposit
-        - Withdrawal
-      abis:
-        - name: Instance
-          file: ../abis/Instance.json
-      eventHandlers:
-        - event: Deposit(indexed bytes32,uint32,uint256)
-          handler: handleDeposit
-        - event: Withdrawal(address,bytes32,indexed address,uint256)
-          handler: handleWithdrawal
-  - kind: ethereum/contract
-    name: Instance-1000-usdt
-    network: mainnet
-    source:
-      address: "0x0836222F2B2B24A3F36f98668Ed8F0B38D1a872f"
-      abi: Instance
-      startBlock: 9116966
-    mapping:
-      kind: ethereum/events
-      apiVersion: 0.0.4
-      language: wasm/assemblyscript
-      file: ../src/mapping-instance.ts
-      entities:
-        - Deposit
-        - Withdrawal
-      abis:
-        - name: Instance
-          file: ../abis/Instance.json
-      eventHandlers:
-        - event: Deposit(indexed bytes32,uint32,uint256)
-          handler: handleDeposit
-        - event: Withdrawal(address,bytes32,indexed address,uint256)
-          handler: handleWithdrawal
-  - kind: ethereum/contract
-    name: Instance-0.1-wbtc
-    network: mainnet
-    source:
-      address: "0x178169B423a011fff22B9e3F3abeA13414dDD0F1"
-      abi: Instance
-      startBlock: 9116966
-    mapping:
-      kind: ethereum/events
-      apiVersion: 0.0.4
-      language: wasm/assemblyscript
-      file: ../src/mapping-instance.ts
-      entities:
-        - Deposit
-        - Withdrawal
-      abis:
-        - name: Instance
-          file: ../abis/Instance.json
-      eventHandlers:
-        - event: Deposit(indexed bytes32,uint32,uint256)
-          handler: handleDeposit
-        - event: Withdrawal(address,bytes32,indexed address,uint256)
-          handler: handleWithdrawal
-  - kind: ethereum/contract
-    name: Instance-1-wbtc
-    network: mainnet
-    source:
-      address: "0x610B717796ad172B316836AC95a2ffad065CeaB4"
-      abi: Instance
-      startBlock: 9116966
-    mapping:
-      kind: ethereum/events
-      apiVersion: 0.0.4
-      language: wasm/assemblyscript
-      file: ../src/mapping-instance.ts
-      entities:
-        - Deposit
-        - Withdrawal
-      abis:
-        - name: Instance
-          file: ../abis/Instance.json
-      eventHandlers:
-        - event: Deposit(indexed bytes32,uint32,uint256)
-          handler: handleDeposit
-        - event: Withdrawal(address,bytes32,indexed address,uint256)
-          handler: handleWithdrawal
-  - kind: ethereum/contract
-    name: Instance-10-wbtc
-    network: mainnet
-    source:
-      address: "0xbB93e510BbCD0B7beb5A853875f9eC60275CF498"
-      abi: Instance
-      startBlock: 9116966
+      startBlock: 16066429
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
@@ -465,9 +304,9 @@
     name: Proxy
     network: mainnet
     source:
-      address: "0xd90e2f925DA726b50C4Ed8D0Fb90Ad053324F31b"
+      address: "0x73c36830296Cf339027285AedD3251b4D276f44D"
       abi: Proxy
-      startBlock: 14248730
+      startBlock: 16066262
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
